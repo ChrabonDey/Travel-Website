@@ -297,8 +297,103 @@ line-height: 30px;
 letter-spacing: 0%;
 margin-bottom:16px;
 }
+.discount{
+    margin:0 auto;
+    margin-top:100px;
+}
+.discount-text{
+   max-width: 643px;
+    height: 126px;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:48px;
+}
+.discount-text h1{
+    color: rgb(19, 19, 24);
+font-size: 2.5rem;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom:24px;
+}
+.discount-card{
+    position: relative;
+    width:100%;
+    height: 500px;
+    border-radius:16px;
+    margin-bottom:24px;
+    background-image:url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.discount-card-box{
+    position: absolute;
+    max-width: 579px;
+     height: 389px;
+     border-radius: 16px;
+     left:46%;
+     top:10%;
+     backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    padding:50px 77px 50px 50px;
+    
+}
+.card-nav{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 386px;
+     height: 24px;
+     color:#FF5400;
+     margin-bottom:24px;
+    
+}
+.card-description h3{
+    color: rgb(19, 19, 24);
+font-size: 1.8rem;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom:16px;
+}
+.card-description p{
+  margin-bottom:16px
+}
+.card-description h4{
+    color: rgb(255, 84, 0);
+font-size: 1.5rem;
+font-weight: 800;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom:24px;
+}
+.card-description button{
+   max-width: 150px;
+height: 52px;
+color: rgb(255, 255, 255);
+font-size: 1.3rem;
+font-weight: 800;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
 
-
+background: rgb(255, 84, 0);
+}
+.dcard-1{
+    background-image: url("../Images/Group\ 40.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+.dcard-box{
+    left:5%;
+}
 
 
 
@@ -323,8 +418,6 @@ margin-bottom:16px;
     .nav-bar{
         display: flex;
         justify-content: space-between;
-        
-        border: 1px solid red;
         padding: 24px;
         width: 370px;
         height: 64px;
@@ -449,16 +542,16 @@ font-weight: 800;
     width: 309px;
     height: 113px;
 }
-.Destination-text h1{
+.Destination-text h1,.card-description h3{
     font-size: 1.5rem;
+    margin-bottom: 8px;
 }
 .destination-card{
     width:335px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-
-gap:20px
+   gap:20px;
 }
 .card-container{
     display: flex;
@@ -466,24 +559,86 @@ gap:20px
 }
 .unique-card{
     width: 335px;
-height: 289px;
-margin:0 auto;
+  height: 289px;
+  margin:0 auto;
 }
 .unique-card img{
     width: 48px;
 height: 48px;
 margin-bottom:16px;
 }
-.unique-card h3,.unique-text h1{
+.unique-card h3,.unique-text h1,.discount-text h1{
     font-size: 1.5rem;
-    margin-bottom:16px
+    margin-bottom:8px;
 }
-.unique-card p,.unique-text p{
+.unique-card p,.unique-text p ,.discount-text p,.card-description p{
     font-size: 0.8rem;
+    margin-bottom:12px;
 }
-.unique-text{
+.card-description h4{
+    font-size: 1rem;
+    margin-bottom:10px
+}
+.card-description button{
+    width: 130px;
+    height: 40px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.unique-text,.discount-text{
     width: 300px;
 height: 113px;
+}
+.discount-card-container{
+     margin:0 auto;
+
+}
+.discount-card-box{
+    
+   width: 303px;
+   height: 297px;
+   position: absolute;
+   left:5%;
+   top:35%;
+   padding:24px;
+
+   
+   
+   
+
+}
+.discount-card{
+    width: 335px;
+    height: 500px;
+ margin:0 auto;
+ position: relative;
+ margin-bottom:16px;
+ 
+
+}
+.card-nav{
+    width: 218px;
+height: 64px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+margin-bottom:16px;
+
+}
+.card-nav-1{
+    grid-column: 1/span 4;
+}
+.card-nav-2{
+    grid-column: 1/span 2;
+}
+.card-nav-3{
+    grid-column: 3/span 2;
+}
+.p-2{
+    display:none;
+}
+.card-box-content{
+    width: 255px;
+  height: 249px;
 }
 
 }
