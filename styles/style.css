@@ -397,7 +397,7 @@ background: rgb(255, 84, 0);
 
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     .nav-tittle{
         display: flex;
         width: 163.47px;
@@ -515,12 +515,12 @@ height: 156px;
     padding:14px;
 }
 .tour-description ul {
-    width: 330px;
+    max-width: 330px;
     margin-bottom:20px;
     margin-left:5px
 }
 .popular-tour img{
-    width: 335px;
+    max-width: 335px;
     height: 342px;
 }
 .tour-description h2{
@@ -539,7 +539,7 @@ font-weight: 800;
 
 }
 .Destination-text{
-    width: 309px;
+    max-width: 309px;
     height: 113px;
 }
 .Destination-text h1,.card-description h3{
@@ -547,7 +547,7 @@ font-weight: 800;
     margin-bottom: 8px;
 }
 .destination-card{
-    width:335px;
+   max-width:335px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -558,12 +558,12 @@ font-weight: 800;
     flex-direction: column;
 }
 .unique-card{
-    width: 335px;
+    max-width: 335px;
   height: 289px;
   margin:0 auto;
 }
 .unique-card img{
-    width: 48px;
+    max-width: 48px;
 height: 48px;
 margin-bottom:16px;
 }
@@ -580,13 +580,13 @@ margin-bottom:16px;
     margin-bottom:10px
 }
 .card-description button{
-    width: 130px;
+    max-width: 130px;
     height: 40px;
     font-size: 1.2rem;
     font-weight: 700;
 }
 .unique-text,.discount-text{
-    width: 300px;
+    max-width: 300px;
 height: 113px;
 }
 .discount-card-container{
@@ -595,7 +595,7 @@ height: 113px;
 }
 .discount-card-box{
     
-   width: 303px;
+   max-width: 303px;
    height: 297px;
    position: absolute;
    left:5%;
@@ -608,7 +608,7 @@ height: 113px;
 
 }
 .discount-card{
-    width: 335px;
+   max-width: 335px;
     height: 500px;
  margin:0 auto;
  position: relative;
@@ -617,7 +617,7 @@ height: 113px;
 
 }
 .card-nav{
-    width: 218px;
+    max-width: 218px;
 height: 64px;
 display: grid;
 grid-template-columns: repeat(4,1fr);
@@ -637,7 +637,7 @@ margin-bottom:16px;
     display:none;
 }
 .card-box-content{
-    width: 255px;
+    max-width: 255px;
   height: 249px;
 }
 
